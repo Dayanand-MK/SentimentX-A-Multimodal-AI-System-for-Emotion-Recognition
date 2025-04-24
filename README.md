@@ -28,30 +28,50 @@
 ## 🗂️ Project Structure
 
 SentimentX/
+
 ├── Main.py                      # 🧠 Main GUI application
+
 ├── Execution.txt                # ✅ Process flow checklist
 
+
 ├── video_analysis/              # 🎥 Video Emotion Recognition
+
 │   ├── sentivideo.py            # Real-time webcam emotion detection
+
 │   ├── deep_emotion.py          # CNN + Spatial Transformer Network model
+
 │   ├── train_emotion_model.py   # Training script for CNN model
+
 │   ├── data_load.py             # Custom dataset class for image loading
+
 │   ├── prepare_dataset.py       # Dataset preprocessor (CSV generator)
+
 │   └── deep_emotion-*.pt        # Trained model file (weights)
 
+
 ├── audio_analysis/              # 🎙️ Audio Sentiment Analysis
+
 │   ├── torchscript.py           # Converts model to TorchScript (.pt)
+
 │   ├── emotion_model.pth        # Pretrained PyTorch model
 
+
 ├── text_analysis/               # 📝 Text Sentiment Analysis
+
 │   ├── sentitext.py             # DistilBERT model training & evaluation
+
 │   ├── sentitext_load.py        # BERT model loader for inference
+
 │   ├── sentimentds.csv          # Sample sentiment dataset
+
 │   └── bert_sentiment_model/    # Saved BERT model + label_map.json
 
+
 ├── requirements.txt             # 📦 Python dependencies list
-├── README.md                    # 📘 Project documentation
-└── LICENSE                      # ⚖️ MIT License
+  
+
+└── README.md                      # 📘 Project documentation
+
 
 
 ---

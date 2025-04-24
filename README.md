@@ -2,7 +2,7 @@
 
 **SentimentX** is a cutting-edge AI system that understands human emotions through **video**, **audio**, and **text**. It uses powerful deep learning models like CNNs, Transformers, and BERT, and wraps everything in a sleek and user-friendly **Tkinter GUI**.
 
-![SentimentX Banner](https://via.placeholder.com/800x200.png?text=SentimentX+-+Emotion+Recognition+System)
+
 
 ---
 
@@ -78,34 +78,6 @@ To set up and run this project, follow these steps **in order**:
 
 ---
 
-## ⚙️ Installation
-
-### 1. Clone this repo
-
-git clone https://github.com/<your-username>/SentimentX.git
-cd SentimentX
-
-
-### 2. Install dependencies
-
-pip install -r requirements.txt
-
-
-You may also need:
-
-pip install torch torchvision transformers scikit-learn opencv-python librosa pygame
-
-
-### 3. Model Placement
-
-| Model | Location |
-|-------|----------|
-| `deep_emotion-100-128-0.005.pt` | `video_analysis/` |
-| `emotion_model.pth`             | `audio_analysis/` |
-| `bert_sentiment_model/` folder  | `text_analysis/` |
-
----
-
 ## 🚀 Run the Application
 
 
@@ -133,14 +105,12 @@ Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College
 
 ---
 
-## 📄 License
-
-MIT License © 2025 Dayanand M K and Team
-
----
-
 ## 📌 Screenshot
+![Screenshot 2025-04-01 215227](https://github.com/user-attachments/assets/06cc0b35-0db2-4dc2-a6e1-05214e9f2f1a)
+![Screenshot 2025-04-01 215806](https://github.com/user-attachments/assets/31edfbfd-f7c8-4117-824f-9222daaa3cde)
+![Screenshot 2025-04-01 215825](https://github.com/user-attachments/assets/b39204d1-334a-42cc-a8eb-347f31c749b3)
+![Screenshot 2025-04-01 224045](https://github.com/user-attachments/assets/b8e28af4-3418-4dc6-9b10-d159512a2233)
 
-![GUI Screenshot](https://via.placeholder.com/800x500.png?text=SentimentX+GUI)
+
 
 ---

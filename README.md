@@ -130,7 +130,6 @@ Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College
 ## 📌 Screenshot
 ![Screenshot 2025-04-01 215227](https://github.com/user-attachments/assets/06cc0b35-0db2-4dc2-a6e1-05214e9f2f1a)
 ![Screenshot 2025-04-01 215806](https://github.com/user-attachments/assets/31edfbfd-f7c8-4117-824f-9222daaa3cde)
-![Screenshot 2025-04-01 224442](https://github.com/user-attachments/assets/2cbc8dbe-dd16-4d46-ab39-d8e7398f807e)
 ![Screenshot 2025-04-01 224045](https://github.com/user-attachments/assets/b8e28af4-3418-4dc6-9b10-d159512a2233)
 
 ---

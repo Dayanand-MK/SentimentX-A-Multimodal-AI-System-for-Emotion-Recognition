@@ -27,29 +27,31 @@
 
 ## 🗂️ Project Structure
 
-
 SentimentX/
-│
-├── Main.py                     # 🧠 GUI entry point
-├── Execution.txt               # ✅ Ordered process flow
-│
-├── video_analysis/
-│   ├── sentivideo.py           # Video emotion detection logic
-│   ├── deep_emotion.py         # CNN + STN model
-│   ├── train_emotion_model.py  # Model training script
-│   ├── data_load.py            # Custom PyTorch dataset
-│   ├── prepare_dataset.py      # Dataset preprocessing (CSV)
-│   └── deep_emotion-100-128-0.005.pt
-│
-├── audio_analysis/
-│   ├── torchscript.py          # Converts model to TorchScript
-│   ├── emotion_model.pth       # Pretrained model for audio emotion
-│
-├── text_analysis/
-│   ├── sentitext.py            # Training + prediction using DistilBERT
-│   ├── sentitext_load.py       # Model loader (BERT version)
-│   ├── bert_sentiment_model/   # Saved BERT model and label_map.json
-│   └── sentimentds.csv         # Sample dataset
+├── Main.py                      # 🧠 Main GUI application
+├── Execution.txt                # ✅ Process flow checklist
+
+├── video_analysis/              # 🎥 Video Emotion Recognition
+│   ├── sentivideo.py            # Real-time webcam emotion detection
+│   ├── deep_emotion.py          # CNN + Spatial Transformer Network model
+│   ├── train_emotion_model.py   # Training script for CNN model
+│   ├── data_load.py             # Custom dataset class for image loading
+│   ├── prepare_dataset.py       # Dataset preprocessor (CSV generator)
+│   └── deep_emotion-*.pt        # Trained model file (weights)
+
+├── audio_analysis/              # 🎙️ Audio Sentiment Analysis
+│   ├── torchscript.py           # Converts model to TorchScript (.pt)
+│   ├── emotion_model.pth        # Pretrained PyTorch model
+
+├── text_analysis/               # 📝 Text Sentiment Analysis
+│   ├── sentitext.py             # DistilBERT model training & evaluation
+│   ├── sentitext_load.py        # BERT model loader for inference
+│   ├── sentimentds.csv          # Sample sentiment dataset
+│   └── bert_sentiment_model/    # Saved BERT model + label_map.json
+
+├── requirements.txt             # 📦 Python dependencies list
+├── README.md                    # 📘 Project documentation
+└── LICENSE                      # ⚖️ MIT License
 
 
 ---
@@ -108,9 +110,7 @@ Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College
 ## 📌 Screenshot
 ![Screenshot 2025-04-01 215227](https://github.com/user-attachments/assets/06cc0b35-0db2-4dc2-a6e1-05214e9f2f1a)
 ![Screenshot 2025-04-01 215806](https://github.com/user-attachments/assets/31edfbfd-f7c8-4117-824f-9222daaa3cde)
-![Screenshot 2025-04-01 215825](https://github.com/user-attachments/assets/b39204d1-334a-42cc-a8eb-347f31c749b3)
+![Screenshot 2025-04-01 224442](https://github.com/user-attachments/assets/2cbc8dbe-dd16-4d46-ab39-d8e7398f807e)
 ![Screenshot 2025-04-01 224045](https://github.com/user-attachments/assets/b8e28af4-3418-4dc6-9b10-d159512a2233)
-
-
 
 ---
